@@ -5,6 +5,7 @@ on:
     branches:
       - 'master'
       - 'dev'
+      - 'cloverkit'
     paths:
       - 'htdocs/**'
       - 'po/**'
@@ -17,6 +18,7 @@ on:
     branches:
       - 'master'
       - 'dev'
+      - 'cloverkit'
     types:
       - opened
       - synchronize
